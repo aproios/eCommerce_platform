@@ -1,0 +1,24 @@
+To push existing codebase into github, first create brand new repo (read: folder) in github, then clone to personal computer into the folder with the folder of the codebase (using atom or git bash 'git clone github.com/project_url'), then add all project files into the clone
+
+To push edits into github:
+(git add <file>) the file or (git add .) the files to the stage
+(git commit) the files. Or (git commit -m "put message here")
+(git push) to publish the files online to the branch
+(git push origin master) to publish changes on the master branch
+
+For file editing:
+(git mv <old_filename> <new_filename>) to rename a file [[mv stands for 'move']]
+(git rm <file>) to remove a file in the folder
+
+To use git:
+(git checkout <branchname>) to move between branches
+(git pull) to sync updated repository on github.com to your computer
+(git push origin master)
+(git clone <https or ssh url>) to bring github repo to your computer [[to push existing codebase into github, have a repo already on github, clone it to the same folder the codebase folder exists in, and push the codebase into the github repo clone. Git add, git commit, git push publishes the codebase]]
+
+
+
+Useful tip websites on git:
+https://help.github.com/
+https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html (on how to use git on command line)
+https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/remotes.html (on remote vs origin)
